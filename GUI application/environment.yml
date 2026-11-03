@@ -1,0 +1,12 @@
+name: ncs-annotator
+channels:
+  - conda-forge
+dependencies:
+  - python=3.12
+  - tk            # the window toolkit (tkinter) - conda's Python needs this package
+  - numpy>=1.26
+  - scipy>=1.11
+  - mne-base>=1.6
+  - pip
+  - pip:
+      - edfio>=0.4.5
